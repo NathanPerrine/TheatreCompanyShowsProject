@@ -1,12 +1,9 @@
 body {
     font-family: 'Roboto';
-    
+    height: 5000px;
 }
 
-img{
-    max-width: 100%;
-    padding: 0;
-}
+
 
 .title{
     font-size: larger;
@@ -21,15 +18,32 @@ img{
     margin: 0px;
 }
 
+.navwrapper{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .nav a{
     text-decoration: none;
     color: white;
 }
 
-.navwrapper{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+img{
+    max-width: 100%;
+    padding: 0;
+}
 
+.imgwrap{
+    position: relative;
+}
+
+.imagetext{
+    position: absolute;
+    top:35%;
+    left: 20%;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
 }

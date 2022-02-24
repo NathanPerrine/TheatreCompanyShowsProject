@@ -117,10 +117,19 @@ img{
     align-items: center;
 }
 
-.info{
+.foot{
+    padding-top: 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
+    justify-content: space-around;
 }
 
 .shows{
     flex-grow: 2;
+}
+
+.icon{
+    color: yellow;
 }

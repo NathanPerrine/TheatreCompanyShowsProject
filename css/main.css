@@ -2,7 +2,9 @@ body {
     font-family: 'Roboto';
 }
 
-
+.containter-fluid{
+    padding: 0;
+}
 
 .title{
     font-size: larger;
@@ -13,15 +15,13 @@ body {
 .nav{
     background-color: black;
     color: white;
-    max-width: 100%;
-    margin: 0px;
 }
 
 .navwrapper{
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .nav a{
@@ -35,6 +35,7 @@ img{
 }
 
 .imgwrap{
+    padding: 0;
     position: relative;
 }
 
